@@ -1,4 +1,4 @@
-# ElfTeamsAgent - Teams AI with GitHub MCP Integration
+# Teams Agent - Teams AI with GitHub MCP Integration
 
 A Microsoft Teams AI agent built with the Teams AI library that integrates with GitHub through Model Context Protocol (MCP) for intelligent repository management and GitHub operations.
 

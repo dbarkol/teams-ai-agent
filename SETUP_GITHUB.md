@@ -7,7 +7,7 @@
 1. Go to [GitHub](https://github.com) and sign in
 2. Click the **"+"** icon → **"New repository"**
 3. Configure repository:
-   - **Name**: `ElfTeamsAgent` (or your preferred name)
+   - **Name**: `TeamsAgent` (or your preferred name)
    - **Description**: `Teams AI agent with GitHub MCP integration for intelligent repository management`
    - **Visibility**: Public or Private (your choice)
    - **DO NOT** check "Add a README file", "Add .gitignore", or "Choose a license" (we already have these)
@@ -22,7 +22,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username and run:
 ./setup-github.sh YOUR_USERNAME
 
 # Option 2: Manual commands
-git remote add origin https://github.com/YOUR_USERNAME/ElfTeamsAgent.git
+git remote add origin https://github.com/YOUR_USERNAME/TeamsAgent.git
 git branch -M main
 git push -u origin main
 ```
@@ -60,7 +60,7 @@ Go to your repository → gear icon next to "About" → add these topics:
 ### Repository Structure
 
 ```
-ElfTeamsAgent/
+TeamsAgent/
 ├── src/                    # Source code
 │   ├── app/               # Teams AI application
 │   ├── githubMcpService.ts # GitHub MCP integration

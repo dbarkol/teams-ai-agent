@@ -3,7 +3,7 @@
 # GitHub Repository Setup Script
 # Run this after creating your repository on GitHub
 
-echo "🚀 Setting up GitHub repository for ElfTeamsAgent..."
+echo "🚀 Setting up GitHub repository for TeamsAgent..."
 
 # Check if we're in a git repository
 if [ ! -d ".git" ]; then
@@ -20,7 +20,7 @@ if [ -z "$1" ]; then
 fi
 
 USERNAME=$1
-REPO_NAME="ElfTeamsAgent"
+REPO_NAME="TeamsAgent"
 
 echo "📡 Adding remote repository..."
 git remote add origin https://github.com/$USERNAME/$REPO_NAME.git
